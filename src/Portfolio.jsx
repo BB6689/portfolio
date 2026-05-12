@@ -578,7 +578,7 @@ export default function Portfolio() {
               <h4>B.Tech – Computer Science &amp; Engineering</h4>
               <div className="inst">AI &amp; Machine Learning Specialisation</div>
               <div className="meta">Siddharth Institute of Engineering &amp; Technology (SIETK), Puttur, AP</div>
-              <div className="meta" style={{ marginTop: ".3rem" }}>Graduated: April 2025 &nbsp;·&nbsp; No Active Backlogs</div>
+              <div className="meta" style={{ marginTop: ".3rem" }}>Graduated: April 2025 &nbsp;·&nbsp;</div>
               <div className="coursework-label">Relevant Coursework</div>
               <div className="coursework-tags">
                 {["Data Structures & Algorithms","DBMS","Operating Systems","Computer Networks","Discrete Mathematics"].map(c => (
