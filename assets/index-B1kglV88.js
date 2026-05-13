@@ -101,11 +101,7 @@ section{padding:100px 5vw}
 .portrait-glow-blob{position:absolute;inset:-30px;border-radius:50%;background:radial-gradient(circle,rgba(255,98,0,.22) 0%,rgba(255,98,0,.08) 45%,transparent 70%);animation:glowPulse 3.5s ease-in-out infinite;z-index:0}
 .portrait-img-wrap{position:relative;z-index:1;width:300px;height:300px;border-radius:50%;overflow:hidden;border:3px solid var(--orange);box-shadow:0 0 0 6px rgba(255,98,0,.08),0 0 40px rgba(255,98,0,.25),0 20px 60px rgba(0,0,0,.7),inset 0 0 30px rgba(0,0,0,.3);animation:heroFloat 5s ease-in-out infinite;transition:box-shadow .4s ease,transform .4s ease;transform-style:preserve-3d}
 .portrait-img-wrap:hover{box-shadow:0 0 0 8px rgba(255,98,0,.15),0 0 60px rgba(255,98,0,.4),0 24px 70px rgba(0,0,0,.8),inset 0 0 30px rgba(0,0,0,.3);animation-play-state:paused}
-.portrait-img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
-.portrait-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:var(--font-head);font-size:5rem;color:var(--orange);background:var(--card);letter-spacing:.1em}
-@keyframes heroFloat{0%,100%{transform:translateY(0px)}50%{transform:translateY(-12px)}}
-@keyframes glowPulse{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.06)}}
-@keyframes spinSlow{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.portrait-img{width:100%;height:100%;object-fit:cover;object-position:center 61%;display:block}@keyframes spinSlow{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
 
 /* Pointer-driven 3D tilt + specular (VanillaTilt-style; JS sets transform + --gx/--gy/--tilt-glare) */
